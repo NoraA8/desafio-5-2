@@ -7,7 +7,6 @@ import Home from "./views/Home";
 import Favoritos from "./views/Favoritos";
 
 export default function App() {
-  // const endpoint = "/fotos.json";
 
   return (
     <div className="App">
