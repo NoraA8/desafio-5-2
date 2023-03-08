@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-const Heart = ({ handleLikedImages, ...props }) => {
+const Heart = ({ handleLiked, ...props }) => {
   const [liked, setLiked] = useState(false);
 
   const handleLikeClick = () => {
     setLiked(!liked);
-    // handleLikedImages();
+    handleLiked();
   };
 
   return (
